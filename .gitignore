@@ -1,0 +1,25 @@
+# Binari dan build cache
+/bin/
+/build/
+*.exe
+*.out
+*.test
+*.o
+*.so
+
+# File Go modules
+/go.sum
+/go.mod
+
+# Cache dan temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Direktori vendor (jika tidak digunakan Go Modules)
+vendor/
+
+# File environment yang mengandung kredensial
+.env
